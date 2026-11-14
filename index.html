@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payal Dubey | Web Development Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h2 class="logo">
+                Payal <span>.</span>
+            </h2>
+            <ul id="navLinks">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false"
+                aria-controls="navLinks">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+
+            <div class="hero-content">
+                <p class="intro">Hello, I'm</p>
+                <h1 class="name">Payal</h1>
+                <h2>B.Sc. IT Student | Web Development</h2>
+                <p>
+                    I'm passionate about web development and enjoy building responsive, interactive websites using
+                    HTML, CSS, and JavaScript. I'm continuously learning, building projects, and improving my
+                    technical skills.
+                </p>
+                <button onclick="location.href='#projects'">View Projects</button>
+            </div>
+
+            <div class="hero-image">
+                <img src="./images/ChatGPT Image Jun 16, 2026, 12_28_02 AM.png" alt="Girl Developer">
+            </div>
+
+        </section>
+
+        <section id="about">
+
+            <div class="about-card">
+
+                <div class="about-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="bi bi-person"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                    </svg>
+                </div>
+                <div class="about-content">
+                    <h2>About Me</h2>
+                    <div class="section-line"></div>
+                    <p>
+                        I am a B.Sc. Information Technology student with a strong interest in web development. I
+                        enjoy turning ideas into responsive and user-friendly websites while strengthening my skills
+                        through hands-on projects. I work with HTML, CSS, JavaScript, Git and GitHub and believe in
+                        continuous learning and practical development.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="skills">
+
+            <h2>Skills</h2>
+
+            <div class="section-line"></div>
+
+            <div class="skill-container">
+
+                <div class="skill-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor">
+                        <path
+                            d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm308.2 127.1H125.8l3.7 41.8h174.9l-11.2 125.3L192 355.7l-.3.1-101-29.5-6.9-77.5h49.5l3.5 39.2 54.9 14.8 55-14.8 5.7-63.6H80.6L67.8 79.9h245.6l-5.2 79.2z" />
+                    </svg>
+                    <h3>HTML</h3>
+                </div>
+
+                <div class="skill-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" fill="currentColor">
+                        <path
+                            d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm289.3 94.3H113.2l4.3 48.2h167.4l-12.6 141.3L192 338.2l-.2.1-80.7-22.4-5.5-61.5h39.6l2.8 31.2 44 11.9 44.1-11.9 4.6-51.3H81.7L69.2 94.3h224.4l-4.3 32z" />
+                    </svg>
+                    <h3>CSS</h3>
+                </div>
+
+                <div class="skill-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="currentColor">
+                        <path
+                            d="M0 32V480H448V32H0zM243.8 405.3c0 43.8-25.7 63.7-63.2 63.7-33.8 0-53.4-17.5-63.4-38.6l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V261.7h42.6V405.3zm102.8 63.7c-39.3 0-64.7-18.7-76.8-43.2l34.3-19.8c9.1 14.8 21 25.7 42 25.7 17.6 0 28.9-8.8 28.9-21 0-14.6-11.6-19.8-31.1-28.3l-10.7-4.6c-30.9-13.2-51.4-29.7-51.4-64.5 0-32.2 24.5-56.7 62.9-56.7 27.3 0 46.9 9.5 61 34.4l-33.4 21.5c-7.4-13.2-15.3-18.4-27.6-18.4-12.6 0-20.6 8-20.6 18.4 0 12.9 8 18.1 26.4 26.1l10.7 4.6c36.4 15.6 56.9 31.5 56.9 67.2 0 38.5-30.2 59.6-70.6 59.6z" />
+                    </svg>
+                    <h3>JavaScript</h3>
+                </div>
+
+                <div class="skill-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-github" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                    </svg>
+                    <h3>Git & GitHub</h3>
+                </div>
+
+                <div class="skill-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
+                        class="bi bi-lightbulb" viewBox="0 0 16 16">
+                        <path
+                            d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1" />
+                    </svg>
+                    <h3>Problem Solving</h3>
+                </div>
+
+                <div class="skill-card">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="bi bi-database"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M8 1c-1.573 0-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4s.875 1.755 1.904 2.223C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777C13.125 5.755 14 5.007 14 4s-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1zM2 6.161V7.9c0 1.007.875 1.755 1.904 2.223C4.978 10.61 6.427 10.9 8 10.9s3.022-.289 4.096-.777C13.125 9.655 14 8.907 14 7.9V6.161c-.5.4-1.098.735-1.752 1.005C10.98 7.7 9.546 8 8 8s-2.98-.3-4.248-.834C3.098 6.896 2.5 6.561 2 6.161zm0 3.83v1.809c0 1.007.875 1.755 1.904 2.223C4.978 14.51 6.427 14.8 8 14.8s3.022-.289 4.096-.777C13.125 13.555 14 12.807 14 11.8V9.991c-.5.4-1.098.735-1.752 1.005C10.98 11.5 9.546 11.8 8 11.8s-2.98-.3-4.248-.834C3.098 10.726 2.5 10.391 2 9.991z" />
+                    </svg>
+                    <h3>MySQL</h3>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="projects">
+
+            <h2>Projects</h2>
+            <div class="section-line"></div>
+
+            <div class="project-container">
+
+                <div class="project-card">
+                    <h3>TastyTreats – Recipe Book</h3>
+
+                    <p class="tech">
+                        HTML • CSS • JavaScript
+                    </p>
+                    <p>
+                        A responsive multi-page recipe website featuring 40+ recipes, search and category filtering,
+                        individual recipe pages, and a mobile-friendly interface.
+                    </p>
+                    <div class="project-footer">
+                        <a href="https://tastytreats-recipe-book.vercel.app/" target="_blank" class="project-link">
+                            Live Demo
+                            <span>→</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Personal Webpage Generator</h3>
+
+                    <p class="tech">
+                        HTML • CSS • JavaScript
+                    </p>
+                    <p>
+                        An interactive webpage generator that creates
+                        personalized webpages using user input and JavaScript.
+                    </p>
+                    <div class="project-footer">
+                        <a href="https://webpage-generator-project.vercel.app/" target="_blank" class="project-link">
+                            Live Demo
+                            <span>→</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Interactive Quiz App</h3>
+
+                    <p class="tech">
+                        HTML • CSS • JavaScript
+                    </p>
+                    <p>
+                        An interactive and responsive quiz application featuring dynamic questions, answer feedback,
+                        progress tracking, and score calculation.
+                    </p>
+                    <div class="project-footer">
+                        <a href="https://payal-dubey.github.io/interactive-quiz-app/" target="_blank" class="project-link">
+                            Live Demo
+                            <span>→</span>
+                        </a>
+                        <a href="https://github.com/payal-dubey/interactive-quiz-app" target="_blank" class="project-link">
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Byte's Coding Corner</h3>
+
+                    <p class="tech">
+                        HTML • CSS • JavaScript
+                    </p>
+                    <p>
+                        A beginner-friendly website for my Semester 5 CEP project that introduces coding with
+                        simple analogies, an interactive puzzle that guides a robot to a star, and a block editor.
+                    </p>
+                    <div class="project-footer">
+                        <a href="https://cep-website-ecru.vercel.app/" target="_blank" class="project-link">
+                            Live Demo
+                            <span>→</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact">
+
+            <h2>Get In Touch</h2>
+            <div class="section-line"></div>
+
+            <div class="contact-container">
+
+                <a href="mailto:dubeypayal.email@gmail.com" class="contact-card">
+
+                    <!-- Email SVG -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path
+                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                    </svg>
+
+                    <h3>Email</h3>
+
+                </a>
+                <a href="https://www.linkedin.com/in/payal-dubey-10a26332a" target="_blank" class="contact-card">
+
+                    <!-- LinkedIn SVG -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                    </svg>
+
+                    <h3>LinkedIn</h3>
+
+                </a>
+                <a href="https://github.com/payal-dubey" target="_blank" class="contact-card">
+
+                    <!-- GitHub SVG -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-github" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                    </svg>
+
+                    <h3>GitHub</h3>
+
+                </a>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+
+        <h3>Payal<span>.</span></h3>
+
+        <p>© 2026 Payal. All Rights Reserved.</p>
+
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
